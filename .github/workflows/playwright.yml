@@ -19,5 +19,3 @@ jobs:
       - run: dotnet build
       - name: Run your tests
         run: dotnet test
-        env:
-          HOME: /root
