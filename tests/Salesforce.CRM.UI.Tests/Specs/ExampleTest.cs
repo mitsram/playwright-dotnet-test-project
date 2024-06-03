@@ -1,13 +1,13 @@
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using Allure.NUnit;
 using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
-using NUnit.Framework;
 
 namespace PlaywrightTests;
 
 [Parallelizable(ParallelScope.Self)]
 [TestFixture]
+[AllureNUnit]
 public class ExampleTest : PageTest
 {
     [Test]
