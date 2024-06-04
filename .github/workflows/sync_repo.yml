@@ -1,0 +1,22 @@
+name: Sync Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v2
+        with:
+          repository: mitsram/playwright-dotnet-test-project
+          token: ${{ secrets.SYNC_TOKEN }}
+
+      - name: Sync with destination repository
+        run: |
+          git remote add destination https://mitsram:${{ secrets.SYNC_TOKEN }}@github.com/PlanitNZ/playwright-dotnet-test-project.git
+          git push destination main --force
