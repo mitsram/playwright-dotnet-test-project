@@ -16,7 +16,7 @@ jobs:
           repository: mitsram/playwright-dotnet-test-project
           token: ${{ secrets.SYNC_TOKEN }}
 
-      - name: Sync with destination repository
+      - name: Sync with onprem repository
         run: |
-          git remote add destination https://mitsram:${{ secrets.SYNC_TOKEN }}@github.com/PlanitNZ/playwright-dotnet-test-project.git
-          git push destination main --force
+          git remote add onprem https://mitsram64:${{ secrets.SYNC_TOKEN }}@github.com/mitsram64/playwright-dotnet-test-project.git
+          git push onprem main --force
