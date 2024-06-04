@@ -1,9 +1,9 @@
 name: Sync Repository
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   sync:
