@@ -16,7 +16,7 @@ public class ExampleTest : PageTest
         await Page.GotoAsync("https://playwright.dev");
 
         // Expect a title "to contain" a substring.
-        await Expect(Page).ToHaveTitleAsync(new Regex("Playwright"), new() { Timeout = 10000 });
+        await Expect(Page).ToHaveTitleAsync(new Regex("Playwright Fail"), new() { Timeout = 10000 });
     }
 
     [Test]
