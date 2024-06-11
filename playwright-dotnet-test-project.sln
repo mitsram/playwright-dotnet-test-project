@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A240682E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salesforce.CRM.UI.Tests", "tests\Salesforce.CRM.UI.Tests\Salesforce.CRM.UI.Tests.csproj", "{87393F45-2945-4F24-8FA8-FF9A97F4DEA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "tests\Framework\Framework.csproj", "{B53C5EA4-9B59-486F-AC4F-338C81513068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petstore.Api.Tests", "tests\Petstore.Api.Tests\Petstore.Api.Tests.csproj", "{8FA980E8-7266-4A28-A88F-D555E3DDD1B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,18 @@ Global
 		{87393F45-2945-4F24-8FA8-FF9A97F4DEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87393F45-2945-4F24-8FA8-FF9A97F4DEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87393F45-2945-4F24-8FA8-FF9A97F4DEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53C5EA4-9B59-486F-AC4F-338C81513068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53C5EA4-9B59-486F-AC4F-338C81513068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53C5EA4-9B59-486F-AC4F-338C81513068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53C5EA4-9B59-486F-AC4F-338C81513068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA980E8-7266-4A28-A88F-D555E3DDD1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA980E8-7266-4A28-A88F-D555E3DDD1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA980E8-7266-4A28-A88F-D555E3DDD1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA980E8-7266-4A28-A88F-D555E3DDD1B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{87393F45-2945-4F24-8FA8-FF9A97F4DEA3} = {A240682E-A09C-48E4-B8A8-CC4E19192608}
+		{B53C5EA4-9B59-486F-AC4F-338C81513068} = {A240682E-A09C-48E4-B8A8-CC4E19192608}
+		{8FA980E8-7266-4A28-A88F-D555E3DDD1B0} = {A240682E-A09C-48E4-B8A8-CC4E19192608}
 	EndGlobalSection
 EndGlobal
