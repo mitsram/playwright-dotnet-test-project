@@ -2,7 +2,7 @@ using dotenv.net;
 using Microsoft.Playwright;
 using Allure.NUnit;
 using Microsoft.Playwright.NUnit;
-using Salesforce.CRM.UI.Tests.Drivers;
+using Salesforce.CRM.UI.Tests.Framework.Drivers;
 
 namespace Salesforce.CRM.UI.Tests.Framework.Base;
 

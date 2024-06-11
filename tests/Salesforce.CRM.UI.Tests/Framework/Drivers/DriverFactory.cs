@@ -1,6 +1,6 @@
 using Microsoft.Playwright;
 
-namespace Salesforce.CRM.UI.Tests.Drivers;
+namespace Salesforce.CRM.UI.Tests.Framework.Drivers;
 
 public class DriverFactory(BrowserType browserType)
 {
